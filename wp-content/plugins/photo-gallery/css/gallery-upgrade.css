@@ -153,7 +153,7 @@
         .gallery_upgrade_wrapper .gallery_upgrade-head .gallery_upgrade-head-media .gallery_upgrade-head-media-picture {
           width: 300px;
           height: 186px;
-          background-image: url("/wp-content/plugins/photo-gallery/images/film-strip.png");
+          background-image: url("/em/wp-content/plugins/photo-gallery/images/film-strip.png");
           background-size: inherit; }
     .gallery_upgrade_wrapper .gallery_upgrade-content {
       margin-bottom: 30px; }
@@ -252,7 +252,7 @@
         .gallery_upgrade_wrapper .gallery_upgrade-head .gallery_upgrade-head-media .gallery_upgrade-head-media-picture {
           width: 433px;
           height: 270px;
-          background-image: url("/wp-content/plugins/photo-gallery/images/film-strip@2x.png");
+          background-image: url("/em/wp-content/plugins/photo-gallery/images/film-strip@2x.png");
           background-size: cover; }
     .gallery_upgrade_wrapper .gallery_upgrade-content .gallery_upgrade-content-features {
       justify-content: space-between;
@@ -352,7 +352,7 @@
       .gallery_upgrade_wrapper .gallery_upgrade-head .gallery_upgrade-head-media .gallery_upgrade-head-media-picture {
         width: 433px;
         height: 270px;
-        background-image: url("/wp-content/plugins/photo-gallery/images/film-strip@3x.png");
+        background-image: url("/em/wp-content/plugins/photo-gallery/images/film-strip@3x.png");
         background-size: cover; }
     .gallery_upgrade_wrapper .gallery_upgrade-content {
       margin-bottom: 50px; }
@@ -455,7 +455,7 @@
         .gallery_upgrade_wrapper .gallery_upgrade-head .gallery_upgrade-head-media .gallery_upgrade-head-media-picture {
           width: 516px;
           height: 322px;
-          background-image: url("/wp-content/plugins/photo-gallery/images/film-strip@3x.png");
+          background-image: url("/em/wp-content/plugins/photo-gallery/images/film-strip@3x.png");
           background-size: cover; }
     .gallery_upgrade_wrapper .gallery_upgrade-content {
       margin-bottom: 10px; }
@@ -561,7 +561,7 @@
       .gallery_upgrade_wrapper .gallery_upgrade-head .gallery_upgrade-head-media .gallery_upgrade-head-media-picture {
         width: 603px;
         height: 376px;
-        background-image: url("/wp-content/plugins/photo-gallery/images/film-strip@3x.png");
+        background-image: url("/em/wp-content/plugins/photo-gallery/images/film-strip@3x.png");
         background-size: cover; }
     .gallery_upgrade_wrapper .gallery_upgrade-content {
       margin-bottom: 10px; }
@@ -668,7 +668,7 @@
         .gallery_upgrade_wrapper .gallery_upgrade-head .gallery_upgrade-head-media .gallery_upgrade-head-media-picture {
           width: 850px;
           height: 529px;
-          background-image: url("/wp-content/plugins/photo-gallery/images/film-strip@3x.png");
+          background-image: url("/em/wp-content/plugins/photo-gallery/images/film-strip@3x.png");
           background-size: cover; }
     .gallery_upgrade_wrapper .gallery_upgrade-content {
       margin-bottom: 6px; }

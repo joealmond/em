@@ -90,7 +90,7 @@ a.wd-btn-icon{
 }
 
 .wd-btn-import {
-	background-image:url("/wp-content/plugins/photo-gallery/images/icons/import.png");
+	background-image:url("/em/wp-content/plugins/photo-gallery/images/icons/import.png");
 }
 .wd-not-image {
   padding: 0px 10px 1px 10px !important;
@@ -98,7 +98,7 @@ a.wd-btn-icon{
 	background-position: 10% 50%;
 }
 .select_icon {
-	background-image:url("/wp-content/plugins/photo-gallery/images/icons/arrow.png");
+	background-image:url("/em/wp-content/plugins/photo-gallery/images/icons/arrow.png");
 	background-repeat: no-repeat;
 	-webkit-appearance: none;
 	-moz-appearance: none;

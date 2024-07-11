@@ -50,7 +50,7 @@ a.twb-custom-button:hover,
   left: 0px;
   width: 18px;
   height: 18px;
-  background: transparent url("/wp-content/plugins/photo-gallery/booster/assets/images/optimize.svg") 0% 0% no-repeat padding-box !important;
+  background: transparent url("/em/wp-content/plugins/photo-gallery/booster/assets/images/optimize.svg") 0% 0% no-repeat padding-box !important;
   float: left;
   position: relative;
   margin-right: 6px;
@@ -109,7 +109,7 @@ a.twb-custom-button:hover,
 }
 
 .elementor-control .twb_elementor_control_title.twb_not_optimized {
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/red-info.svg) no-repeat;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/red-info.svg) no-repeat;
   background-size: 16px;
   padding-left: 22px;
   font-size: 12px;
@@ -205,7 +205,7 @@ a.twb-custom-button:hover,
 }
 
 .elementor-control .twb_elementor_control_title span.twb_inprogress {
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/loader_green.svg) 0 0 no-repeat padding-box;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/loader_green.svg) 0 0 no-repeat padding-box;
   animation: rotation 1s infinite linear;
   background-size: 16px;
   margin-right: 6px;
@@ -257,7 +257,7 @@ a.twb-custom-button:hover,
   left: calc(50% - 13px);
   content: " ";
   height: 26px;
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/logo_dark.svg) 0 0 no-repeat;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/logo_dark.svg) 0 0 no-repeat;
   background-size: 26px;
 }
 
@@ -267,7 +267,7 @@ a.twb-custom-button:hover,
   width: 26px;
   height: 26px;
   content: " ";
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/logo_dark.svg) 0 0 no-repeat;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/logo_dark.svg) 0 0 no-repeat;
   background-size: 26px;
 }
 
@@ -303,10 +303,10 @@ a.twb-custom-button:hover,
   height: 15px;
 }
 #twb-speed-galleries_bwg:before {
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/pg.svg) 0% 0% no-repeat padding-box;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/pg.svg) 0% 0% no-repeat padding-box;
 }
 #twb-speed-manage_fm:before {
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/fm.svg) 0% 0% no-repeat padding-box;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/fm.svg) 0% 0% no-repeat padding-box;
 }
 
 th[id^='twb-speed-']:after {
@@ -321,7 +321,7 @@ th[id^='twb-speed-']:after {
 }
 
 th[id^='twb-speed-']:after {
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/closed_eye.svg) 0% 0% no-repeat padding-box;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/closed_eye.svg) 0% 0% no-repeat padding-box;
 }
 
 .twb-page-speed {
@@ -352,13 +352,13 @@ a.twb-see-score {
 }
 
 .twb-optimized:before {
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/not_optimized.svg) 0% 0% no-repeat padding-box;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/not_optimized.svg) 0% 0% no-repeat padding-box;
 }
 .twb-notoptimized:before {
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/check_score.svg) 0% 0% no-repeat padding-box;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/check_score.svg) 0% 0% no-repeat padding-box;
 }
 .twb-optimizing:before {
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/loader.svg) 0% 0% no-repeat padding-box;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/loader.svg) 0% 0% no-repeat padding-box;
   margin: 8px 2px;
   animation: rotation 1s infinite linear;
   width: 14px;
@@ -447,14 +447,14 @@ a.twb-see-score {
 }
 #wpadminbar .twb-loader,
 .twb-loader {
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/loader.svg) 0% 0% no-repeat padding-box;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/loader.svg) 0% 0% no-repeat padding-box;
   animation: rotation 1s infinite linear;
   width: 14px;
   height: 14px;
 }
 #wpadminbar .twb-reload,
 .twb-reload {
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/reload.svg) 0% 0% no-repeat padding-box;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/reload.svg) 0% 0% no-repeat padding-box;
   width: 28px;
   height: 28px;
   cursor: pointer;
@@ -547,7 +547,7 @@ a.twb-see-score {
 
 #wpadminbar .twb-score0,
 .twb-score0 {
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/red-info.svg) no-repeat #FD3C310D;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/red-info.svg) no-repeat #FD3C310D;
   background-size: 30px;
   width: 30px;
   height: 30px;
@@ -632,7 +632,7 @@ a.twb-see-score {
 
 #wpadminbar .twb_admin_bar_menu.twb_frontend.twb_score_inprogress span,
 #wpadminbar .twb_admin_bar_menu.twb_backend .twb_admin_bar_menu_header span {
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/loader_green.svg) 0 0 no-repeat padding-box;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/loader_green.svg) 0 0 no-repeat padding-box;
   animation: rotation 1s infinite linear;
   width: 18px;
   height: 18px;
@@ -642,7 +642,7 @@ a.twb-see-score {
 }
 
 #wpadminbar .twb_admin_bar_menu.twb_backend .twb_admin_bar_menu_header span.twb_backend_not_optimized_logo {
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/not_optimized.svg) 0 3px no-repeat padding-box;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/not_optimized.svg) 0 3px no-repeat padding-box;
   animation: none;
   background-size: 12px;
 }
@@ -657,7 +657,7 @@ a.twb-see-score {
 
 
 #wpadminbar .twb_admin_bar_menu.twb_backend .twb_admin_bar_menu_header span.twb_counted {
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/not_optimized.svg) 0 0 no-repeat padding-box;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/not_optimized.svg) 0 0 no-repeat padding-box;
   animation:none;
 }
 
@@ -737,7 +737,7 @@ a.twb-see-score {
 }
 
 #wpadminbar .twb_counted .twb_status_title {
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/green-info.svg) 0 no-repeat padding-box;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/green-info.svg) 0 no-repeat padding-box;
   background-size: 16px;
   padding-left: 25px;
 }
@@ -752,7 +752,7 @@ a.twb-see-score {
   background-size: 16px!important;
   margin-left: 0;
   margin-right: 5px;
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/loader_green.svg) 0 0 no-repeat padding-box;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/loader_green.svg) 0 0 no-repeat padding-box;
   animation: rotation 1s infinite linear;
   background-position: top 2px;
 }
@@ -796,12 +796,12 @@ a.twb-see-score {
 
 
 #wpadminbar .twb_counted .twb_counted_congrats_row span.twb_up_arrow {
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/up_arrow_nav.svg) 0 no-repeat padding-box;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/up_arrow_nav.svg) 0 no-repeat padding-box;
   background-size: 18px;
 }
 
 #wpadminbar .twb_counted .twb_counted_congrats_row span.twb_down_arrow {
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/down_arrow_nav.svg) 0 no-repeat padding-box;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/down_arrow_nav.svg) 0 no-repeat padding-box;
   background-size: 18px;
 }
 
@@ -870,7 +870,7 @@ a.twb-see-score {
   display: inline-block;
   width: 14px;
   height: 14px;
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/loader_green.svg) 0 0 no-repeat padding-box;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/loader_green.svg) 0 0 no-repeat padding-box;
   background-size: 14px;
   animation: rotation 1s infinite linear;
   margin-right: 5px;

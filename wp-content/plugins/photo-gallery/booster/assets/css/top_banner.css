@@ -31,7 +31,7 @@
   transform: translateY(-50%);
   width: 14px;
   height: 14px;
-  background: transparent url('/wp-content/plugins/photo-gallery/booster/assets/images/information.svg') 0% 0% no-repeat padding-box;
+  background: transparent url('/em/wp-content/plugins/photo-gallery/booster/assets/images/information.svg') 0% 0% no-repeat padding-box;
 }
 .twb-booster-top-banner-wrapper {
   display: -webkit-box;

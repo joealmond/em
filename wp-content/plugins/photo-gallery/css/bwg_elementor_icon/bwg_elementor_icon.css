@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'twbb-icons';
-  src: url('/wp-content/plugins/photo-gallery/fonts/twbb-icons.eot');
-  src: url('/wp-content/plugins/photo-gallery/fonts/twbb-icons.eot') format('embedded-opentype'),
-  url('/wp-content/plugins/photo-gallery/fonts/twbb-icons.ttf') format('truetype'),
-  url('/wp-content/plugins/photo-gallery/fonts/twbb-icons.woff') format('woff'),
-  url('/wp-content/plugins/photo-gallery/fonts/twbb-icon.svg') format('svg');
+  src: url('/em/wp-content/plugins/photo-gallery/fonts/twbb-icons.eot');
+  src: url('/em/wp-content/plugins/photo-gallery/fonts/twbb-icons.eot') format('embedded-opentype'),
+  url('/em/wp-content/plugins/photo-gallery/fonts/twbb-icons.ttf') format('truetype'),
+  url('/em/wp-content/plugins/photo-gallery/fonts/twbb-icons.woff') format('woff'),
+  url('/em/wp-content/plugins/photo-gallery/fonts/twbb-icon.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }

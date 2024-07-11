@@ -7,19 +7,19 @@ table.compat_logos td.logos
 	height: 36px;
 	border-bottom: none;
 	border-collapse: separate;
-	background-image: url(/wp-content/plugins/ckeditor-for-wordpress/images/compat_logos.png);
+	background-image: url(/em/wp-content/plugins/ckeditor-for-wordpress/images/compat_logos.png);
 	background-repeat: no-repeat;
 	text-indent: -1000px;
 	overflow: hidden;
 	padding:0;
 }
 .ckeditor_links td{height:30px;background-repeat:no-repeat;padding-left: 20px;padding-top:0}
-.ckeditor_links td.help{background: url(/wp-content/plugins/ckeditor-for-wordpress/images/help.png) 0 7px no-repeat;}
-.ckeditor_links td.conf{background: url(/wp-content/plugins/ckeditor-for-wordpress/images/configuration.png) 0 7px no-repeat;}
-.ckeditor_links td.plug{background: url(/wp-content/plugins/ckeditor-for-wordpress/images/plugin.png) 0 7px  no-repeat;}
-.ckeditor_links td.excl{background: url(/wp-content/plugins/ckeditor-for-wordpress/images/exclamation.png) 0 7px  no-repeat;}
-.ckeditor_links td.docs{background: url(/wp-content/plugins/ckeditor-for-wordpress/images/documentation.png) 0 7px  no-repeat;}
-.ckeditor_links td.cke{background: url(/wp-content/plugins/ckeditor-for-wordpress/images/ckeditor_ico16.png) 1px 8px  no-repeat;}
+.ckeditor_links td.help{background: url(/em/wp-content/plugins/ckeditor-for-wordpress/images/help.png) 0 7px no-repeat;}
+.ckeditor_links td.conf{background: url(/em/wp-content/plugins/ckeditor-for-wordpress/images/configuration.png) 0 7px no-repeat;}
+.ckeditor_links td.plug{background: url(/em/wp-content/plugins/ckeditor-for-wordpress/images/plugin.png) 0 7px  no-repeat;}
+.ckeditor_links td.excl{background: url(/em/wp-content/plugins/ckeditor-for-wordpress/images/exclamation.png) 0 7px  no-repeat;}
+.ckeditor_links td.docs{background: url(/em/wp-content/plugins/ckeditor-for-wordpress/images/documentation.png) 0 7px  no-repeat;}
+.ckeditor_links td.cke{background: url(/em/wp-content/plugins/ckeditor-for-wordpress/images/ckeditor_ico16.png) 1px 8px  no-repeat;}
 table.compat_logos td.ie{background-position: 0px top;}
 table.compat_logos td.firefox{background-position: -32px top;}
 table.compat_logos td.safari{background-position: -64px top;}

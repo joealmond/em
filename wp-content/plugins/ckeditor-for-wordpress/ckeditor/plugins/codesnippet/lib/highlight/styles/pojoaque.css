@@ -9,7 +9,7 @@ Based on Solarized Style from http://ethanschoonover.com/solarized
 .hljs {
   display: block; padding: 0.5em;
   color: #DCCF8F;
-  background: url(/wp-content/plugins/ckeditor-for-wordpress/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.jpg) repeat scroll left top #181914;
+  background: url(/em/wp-content/plugins/ckeditor-for-wordpress/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.jpg) repeat scroll left top #181914;
 }
 
 .hljs-comment,

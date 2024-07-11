@@ -10,7 +10,7 @@ a { color:inherit !important; }
 img.alignleft { float:left; clear:left; }
  
 nav					{ background:#fff !important; box-shadow:none !important; border:0 !important; height:30px; overflow:visible !important; }
-nav .container .navbar-brand		{ display:none; position:absolute; left:50%; background:url(/wp-content/themes/emOnlineEventServices/css/images/nav-logo.png) center no-repeat; height:83px; width:243px;
+nav .container .navbar-brand		{ display:none; position:absolute; left:50%; background:url(/em/wp-content/themes/emOnlineEventServices/css/images/nav-logo.png) center no-repeat; height:83px; width:243px;
 					  margin-left:-121px !important; float:none !important; font-size:0; text-indent:-9000px; }
 nav .container ul			{ text-align:center !important; width:100% !IMPORTANT; }
 nav .container li			{ margin:0 10px; display:inline-block; float:none !important; }
@@ -29,8 +29,8 @@ nav .container li#menu-item-648 a,
 nav .container li#menu-item-649 a,
 nav .container li#menu-item-1000 a,
 nav .container li#menu-item-1001 a
-/*{ background:url(/wp-content/themes/emOnlineEventServices/css/images/nav-logo.png) center no-repeat !important; height:83px; width:243px; font-size:0; text-indent:-9000px; }*/
-					{ background:url(/wp-content/themes/emOnlineEventServices/css/images/nav-logo.png) center no-repeat !important; height:83px; width:243px; font-size:0; text-indent:-9000px;
+/*{ background:url(/em/wp-content/themes/emOnlineEventServices/css/images/nav-logo.png) center no-repeat !important; height:83px; width:243px; font-size:0; text-indent:-9000px; }*/
+					{ background:url(/em/wp-content/themes/emOnlineEventServices/css/images/nav-logo.png) center no-repeat !important; height:83px; width:243px; font-size:0; text-indent:-9000px;
 					  display: inline-block;}
 
 nav .container li.active a  *		{ color:#0093B2 !important; border-bottom:10px solid #0093B2; }
@@ -99,9 +99,9 @@ nav .navbar-collapse.collapsing li a	{ color:#fff !important; background:transpa
 .section.a-csapat .fp-slidesNav,    .section.the-team .fp-slidesNav	{ bottom:20% !important; display:none !important; }
 .section.a-csapat .fp-slidesNav a span,		.section.the-team .fp-slidesNav a span		{ height:15px; width:15px; margin-top:0 !important; background:#fff !important; }
 .section.a-csapat .fp-slidesNav a.active span,	.section.the-team .fp-slidesNav a.active span	{ background:#0093B2 !important; }
-.section.a-csapat .fp-next,	    .section.the-team .fp-next		{ background:#0093B2 url(/wp-content/themes/emOnlineEventServices/css/images/arr-right.png) 25px center no-repeat !important; border:0 !important;
+.section.a-csapat .fp-next,	    .section.the-team .fp-next		{ background:#0093B2 url(/em/wp-content/themes/emOnlineEventServices/css/images/arr-right.png) 25px center no-repeat !important; border:0 !important;
 									  color:#0093B2 !important; width:100px; height:100px; border-radius:100%; font-size:0 !important; right:-50px; }
-.section.a-csapat .fp-prev,	    .section.the-team .fp-prev		{ background:#0093B2 url(/wp-content/themes/emOnlineEventServices/css/images/arr-left.png) 60px center no-repeat !important; border:0 !important;
+.section.a-csapat .fp-prev,	    .section.the-team .fp-prev		{ background:#0093B2 url(/em/wp-content/themes/emOnlineEventServices/css/images/arr-left.png) 60px center no-repeat !important; border:0 !important;
 									  color:#0093B2 !important; width:100px; height:100px; border-radius:100%; font-size:0 !important; left:-50px; }
 .section.a-csapat .fp-slides,	    .section.the-team .fp-slides	{}
 .section.a-csapat .container table, .section.the-team .container table	{ width:100%; background:#fff; max-width:943px; }
@@ -110,7 +110,7 @@ nav .navbar-collapse.collapsing li a	{ color:#fff !important; background:transpa
 .section.a-csapat .container tr td:nth-child(1),    .section.the-team .container tr td:nth-child(1)	{ width:30%; }
 .section.a-csapat .container tr td:nth-child(2),    .section.the-team .container tr td:nth-child(2)	{ width:70%; }
 .section.a-csapat .container img,   .section.the-team .container img	{ margin:-20px 20px 20px 0; max-width:100%; height:auto; }
-.section.a-csapat .container a,	    .section.the-team .container a	{ display:block; height:40px; width:40px; background:url(/wp-content/themes/emOnlineEventServices/css/images/email.png) center no-repeat;
+.section.a-csapat .container a,	    .section.the-team .container a	{ display:block; height:40px; width:40px; background:url(/em/wp-content/themes/emOnlineEventServices/css/images/email.png) center no-repeat;
 									  text-indent:-9000px; font-size:0; }
 .section.a-csapat .container p,	    .section.the-team .container p	{ font-size:17px !important; line-height:1.5em !important; margin-top:30px; }
 .section.a-csapat .container h1,    .section.the-team .container h1	{ margin-bottom:0; }
@@ -129,10 +129,10 @@ nav .navbar-collapse.collapsing li a	{ color:#fff !important; background:transpa
 .section.referenciak .fp-slidesNav a span,	 .section.references .fp-slidesNav a span	 { height:15px; width:15px; margin-top:0 !important; background:#fff !important; }
 .section.referenciak .fp-slidesNav a.active span,.section.references .fp-slidesNav a.active span { background:#0093B2 !important; }
 .section.referenciak .fp-slides,    .section.references .fp-slides	{ margin-bottom:0 !important; }
-.section.referenciak .fp-next,	    .section.references .fp-next	{ background:#0093B2 url(/wp-content/themes/emOnlineEventServices/css/images/arr-right.png) 25px center no-repeat !important; border:0 !important;
+.section.referenciak .fp-next,	    .section.references .fp-next	{ background:#0093B2 url(/em/wp-content/themes/emOnlineEventServices/css/images/arr-right.png) 25px center no-repeat !important; border:0 !important;
 									  color:#0093B2 !important; width:100px; height:100px; border-radius:100%; font-size:0 !important;
 									  right:-50px; top:50% !important; margin-top:-50px !important; margin-bottom:0 !important;  }
-.section.referenciak .fp-prev,	    .section.references .fp-prev	{ background:#0093B2 url(/wp-content/themes/emOnlineEventServices/css/images/arr-left.png) 60px center no-repeat !important; border:0 !important;
+.section.referenciak .fp-prev,	    .section.references .fp-prev	{ background:#0093B2 url(/em/wp-content/themes/emOnlineEventServices/css/images/arr-left.png) 60px center no-repeat !important; border:0 !important;
 									  color:#0093B2 !important; width:100px; height:100px; border-radius:100%; font-size:0 !important;
 									  left:-50px; top:50% !important; margin-top:-50px !important; margin-bottom:0 !important;  }
 .section.referenciak .container img,.section.references .container img	{}
@@ -196,13 +196,13 @@ nav .navbar-collapse.collapsing li a	{ color:#fff !important; background:transpa
 
 .spider_popup_wrap		{}
 .bwg_image_wrap			{}
-.bwg_slide_container		{ background:transparent url(/wp-content/themes/emOnlineEventServices/css/images/gallery-bg.png); }
+.bwg_slide_container		{ background:transparent url(/em/wp-content/themes/emOnlineEventServices/css/images/gallery-bg.png); }
 .bwg_close_btn			{ color:#fff !important; font-size:25px !important; }
 #spider_popup_right:hover span,
 #spider_popup_left:hover span	{ border:0 !important; color:#0093B2 !important; width:100px !important; height:100px !important; border-radius:100%; font-size:0 !important;
 				  top:50% !important; right:-50px !important; }
-#spider_popup_right:hover span	{ background:#0093B2 url(/wp-content/themes/emOnlineEventServices/css/images/arr-right.png) 25px center no-repeat !important; }
-#spider_popup_left:hover span	{ background:#0093B2 url(/wp-content/themes/emOnlineEventServices/css/images/arr-left.png) 60px center no-repeat !important; }
+#spider_popup_right:hover span	{ background:#0093B2 url(/em/wp-content/themes/emOnlineEventServices/css/images/arr-right.png) 25px center no-repeat !important; }
+#spider_popup_left:hover span	{ background:#0093B2 url(/em/wp-content/themes/emOnlineEventServices/css/images/arr-left.png) 60px center no-repeat !important; }
 #spider_popup_right,
 #spider_popup_left  		{ display:block !important; visibility:visible !important; height:100% !important; width:50% !important; top:0 !important; margin-top:0 !important; }
 
@@ -217,27 +217,27 @@ nav .navbar-collapse.collapsing li a	{ color:#fff !important; background:transpa
 
 footer						{ background:transparent !important; padding:0; width:100%; /*position:fixed; bottom:0; z-index:0;*/ }
 footer .container				{ /*position:relative;*/ }
-footer .container .logo				{ display:block; width:78px; height:78px; background:url(/wp-content/themes/emOnlineEventServices/css/images/footer-lwp.png) center no-repeat; position:fixed;
+footer .container .logo				{ display:block; width:78px; height:78px; background:url(/em/wp-content/themes/emOnlineEventServices/css/images/footer-lwp.png) center no-repeat; position:fixed;
 						  right:20px; bottom:20px; font-size:0; text-indent:-9000px; z-index:0; }
 footer .container ul.social			{ position:fixed; bottom:0; z-index:0; float:left; margin:0 !important; padding:30px 0 !important; }
 footer .container ul.social li			{ float:none; display:inline-block; padding:0 !important; margin:0 !important; height:40px !important; }
 footer .container ul.social li a		{ height:40px; width:40px; margin:0 !important; padding:0 !important; display:inline-block; background-position:center; background-repeat:no-repeat; font-size:0; text-indent:-9000px; }
-footer .container ul.social li#menu-item-50 a	{ background-image:url(/wp-content/themes/emOnlineEventServices/css/images/footer-email.png); }
-footer .container ul.social li#menu-item-49 a	{ background-image:url(/wp-content/themes/emOnlineEventServices/css/images/footer-facebook.png); }
-footer .container ul.social li#menu-item-51 a	{ background-image:url(/wp-content/themes/emOnlineEventServices/css/images/footer-twitter.png); }
-footer .container ul.social li#menu-item-180 a	{ background-image:url(/wp-content/themes/emOnlineEventServices/css/images/footer-prezi.png); }
+footer .container ul.social li#menu-item-50 a	{ background-image:url(/em/wp-content/themes/emOnlineEventServices/css/images/footer-email.png); }
+footer .container ul.social li#menu-item-49 a	{ background-image:url(/em/wp-content/themes/emOnlineEventServices/css/images/footer-facebook.png); }
+footer .container ul.social li#menu-item-51 a	{ background-image:url(/em/wp-content/themes/emOnlineEventServices/css/images/footer-twitter.png); }
+footer .container ul.social li#menu-item-180 a	{ background-image:url(/em/wp-content/themes/emOnlineEventServices/css/images/footer-prezi.png); }
 footer .container ul.dot			{ width:100% !important; text-align:center !important; margin:0 !important; padding:0 !important; }
 footer .container ul.dot li			{ float:none; display:inline-block; padding:0 !important; margin:0 !important; height:53px !important; }
 footer .container ul.dot li a			{ display:none; height:53px; width:100px; margin:0 !important; padding:0 !important;
-						  background:url(/wp-content/themes/emOnlineEventServices/css/images/footer-down.png) center no-repeat; font-size:0; text-indent:-9000px; }
+						  background:url(/em/wp-content/themes/emOnlineEventServices/css/images/footer-down.png) center no-repeat; font-size:0; text-indent:-9000px; }
 footer .container ul.dot li.active a		{ display:inline-block; }
 /* MJ-MODIFIED 2021.05.08
-/*footer .container  button.next { position:absolute; z-index:999; left:50%; bottom:0; border:0; outline:0; height:53px; width:100px; margin:0 !important; padding:0 !important; background:url(/wp-content/themes/emOnlineEventServices/css/images/footer-down.png) center no-repeat; font-size:0; text-indent:-9000px; } */
+/*footer .container  button.next { position:absolute; z-index:999; left:50%; bottom:0; border:0; outline:0; height:53px; width:100px; margin:0 !important; padding:0 !important; background:url(/em/wp-content/themes/emOnlineEventServices/css/images/footer-down.png) center no-repeat; font-size:0; text-indent:-9000px; } */
 footer .container  button.next,
 footer .container  button.up			{ position:absolute; z-index:999;bottom:-50px; border:0; outline:0; height:100px; width:100px; margin:0 !important;
 						  padding:0 !important; font-size:0; text-indent:-9000px; border-radius:100%;}
-footer .container  button.next			{ right:20px;  background: #0093B2 url(/wp-content/themes/emOnlineEventServices/css/images/footer-down.png)	center 20px no-repeat; font-size:0; }
-footer .container  button.up			{ right:130px; background: #0093B2 url(/wp-content/themes/emOnlineEventServices/css/images/footer-up.png)	center 20px no-repeat; font-size:0; }
+footer .container  button.next			{ right:20px;  background: #0093B2 url(/em/wp-content/themes/emOnlineEventServices/css/images/footer-down.png)	center 20px no-repeat; font-size:0; }
+footer .container  button.up			{ right:130px; background: #0093B2 url(/em/wp-content/themes/emOnlineEventServices/css/images/footer-up.png)	center 20px no-repeat; font-size:0; }
 
 @media screen and (max-height:920px) {
   .section.szolgaltatasok .col-xs-36,	.section.services-2 .col-xs-36	{ padding:0 5px; }
@@ -288,10 +288,10 @@ footer .container  button.up			{ right:130px; background: #0093B2 url(/wp-conten
   #navbar a.close				{ font-family:'Roboto', serif; padding:10px; font-weight:300; color:#fff !important; text-shadow:none !important;
 						  position:absolute; z-index:9999; right:20px; top:-5px; font-size:35px; float:none !important; opacity:1.0 !important; }
   /*MJ--MODIFIED 2021.05.19 START*/
-  /*.navbar { background:#fff url(/wp-content/themes/emOnlineEventServices/css/images/nav-logo.png) center no-repeat !important; }*/
+  /*.navbar { background:#fff url(/em/wp-content/themes/emOnlineEventServices/css/images/nav-logo.png) center no-repeat !important; }*/
   .navbar					{ background:#fff !important; }
   .navbar:before				{ content: '';	position: absolute; display: inline-block; width: 243px; height: 83px; top: -3px;
-						  background: rgba(0,0,0,0) url(/wp-content/themes/emOnlineEventServices/css/images/nav-logo.png) center no-repeat !important;
+						  background: rgba(0,0,0,0) url(/em/wp-content/themes/emOnlineEventServices/css/images/nav-logo.png) center no-repeat !important;
 						  left: 50%; transform: translate(-50%, 0);
   }
   /*MJ--MODIFIED 2021.05.19 END */
@@ -315,7 +315,7 @@ footer .container  button.up			{ right:130px; background: #0093B2 url(/wp-conten
   #navbar a.close				{ font-family:'Roboto', serif; padding:10px; font-weight:300; color:#fff !important; text-shadow:none !important;
 						  position:absolute; z-index:9999; right:20px; top:-5px; font-size:35px; float:none !important; opacity:1.0 !important; }
   /*MJ--DELETED 2021.05.19 moved to maxwidth:1200px*/
-  /*.navbar { background:#fff url(/wp-content/themes/emOnlineEventServices/css/images/nav-logo.png) center no-repeat !important; }*/
+  /*.navbar { background:#fff url(/em/wp-content/themes/emOnlineEventServices/css/images/nav-logo.png) center no-repeat !important; }*/
 
   /* MJ-DELETED 2021.05.08 */
   /*.screener { background:none !important; }*/ 
@@ -805,7 +805,7 @@ html, body {
 }
 .kezdolap .hex .hexPattern,
 .landingpage .hex .hexPattern {
-	background-image: url(/wp-content/uploads/2021/05/mosaic_3d.png);
+	background-image: url(/em/wp-content/uploads/2021/05/mosaic_3d.png);
 	opacity: 0.7;
 	transition: opacity 0.3s;
 }
@@ -861,10 +861,10 @@ html, body {
 .section.em-solutions-hu .fp-slidesNav a span,		.section.em-solutions-eng .fp-slidesNav a span		{ height:15px; width:15px; margin-top:0 !important;
 														  background:#fff !important; }
 .section.em-solutions-hu .fp-slidesNav a.active span,	.section.em-solutions-eng .fp-slidesNav a.active span	{ background:#0093B2 !important; }
-.section.em-solutions-hu .fp-next,			.section.em-solutions-eng .fp-next	{ background:#0093B2 url(/wp-content/themes/emOnlineEventServices/css/images/arr-right.png) 25px center no-repeat !important;
+.section.em-solutions-hu .fp-next,			.section.em-solutions-eng .fp-next	{ background:#0093B2 url(/em/wp-content/themes/emOnlineEventServices/css/images/arr-right.png) 25px center no-repeat !important;
 												  border:0 !important; color:#0093B2 !important; width:100px; height:100px;
 												  border-radius:100%; font-size:0 !important; right:-50px; }
-.section.em-solutions-hu .fp-prev,			.section.em-solutions-eng .fp-prev	{ background:#0093B2 url(/wp-content/themes/emOnlineEventServices/css/images/arr-left.png) 60px center no-repeat !important;
+.section.em-solutions-hu .fp-prev,			.section.em-solutions-eng .fp-prev	{ background:#0093B2 url(/em/wp-content/themes/emOnlineEventServices/css/images/arr-left.png) 60px center no-repeat !important;
 												  border:0 !important; color:#0093B2 !important; width:100px; height:100px; 
 												  border-radius:100%; font-size:0 !important; left:-50px; }
 

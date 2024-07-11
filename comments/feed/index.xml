@@ -8,8 +8,8 @@
 <channel>
 	<title>
 	Hozzászólások ehhez: Event And More	</title>
-	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	<atom:link href="/em/comments/feed/" rel="self" type="application/rss+xml" />
+	<link>/em/</link>
 	<description></description>
 	<lastBuildDate>Wed, 10 Jul 2024 17:59:38 +0000</lastBuildDate>
 	<sy:updatePeriod>

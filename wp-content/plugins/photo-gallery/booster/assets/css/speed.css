@@ -75,7 +75,7 @@ ul.twb-install-booster-steps li.twb_so_check_active span{
   color: #22B339;
 }
 ul.twb-install-booster-steps li.twb_so_check_active:after{
-  background-image: url(/wp-content/plugins/photo-gallery/booster/assets/images/check_green.jpg);
+  background-image: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/check_green.jpg);
 }
 
 ul.twb-install-booster-steps li:after {
@@ -88,7 +88,7 @@ ul.twb-install-booster-steps li:after {
   border-radius: 50%;
   box-sizing: border-box;
   color: #ffffff00;
-  background-image: url(/wp-content/plugins/photo-gallery/booster/assets/images/check_grey.jpg);
+  background-image: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/check_grey.jpg);
   background-size: contain;
   z-index: 1;
 }
@@ -107,7 +107,7 @@ ul.twb-install-booster-steps li:last-child:after {
   top: -27px;
   height: 42px;
   width: 42px;
-  background-image: url(/wp-content/plugins/photo-gallery/booster/assets/images/star_grey.jpg);
+  background-image: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/star_grey.jpg);
 }
 .twb-button-container-parent {
   margin-top: 30px;
@@ -271,7 +271,7 @@ input.twb-sign-up-input {
 }
 .twb-speed-footer input[type=checkbox]:checked::before {
   content: ' ';
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/check_white.png) 1px 3px no-repeat;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/check_white.png) 1px 3px no-repeat;
   background-size: 10px;
   background-color: #0A53BE;
   color: #ffffff;
@@ -361,14 +361,14 @@ input.twb-sign-up-input {
 
 .twb-analyze-mobile-score {
   margin-right: 5px;
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/mobile.svg) no-repeat #F9F9F9;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/mobile.svg) no-repeat #F9F9F9;
   background-size: 18px;
   background-position: 10px 10px;
 }
 
 .twb-analyze-desktop-score {
   margin-left: 5px;
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/desktop.svg) no-repeat #F9F9F9;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/desktop.svg) no-repeat #F9F9F9;
   background-size: 18px;
   background-position: 10px 10px;
 }
@@ -540,7 +540,7 @@ input.twb-sign-up-input {
   text-align: left;
   vertical-align: middle;
   line-height: 28px;
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/check_green_bg.svg) no-repeat #22B3390D;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/check_green_bg.svg) no-repeat #22B3390D;
   background-size: 18px;
   background-position: 6px;
   padding: 0 0 0 29px;
@@ -602,7 +602,7 @@ input.twb-sign-up-input {
 
 .speed_circle_loader {
   animation: rotation 1s infinite linear;
-  background: url("/wp-content/plugins/photo-gallery/booster/assets/images/google_spinner.svg") no-repeat;
+  background: url("/em/wp-content/plugins/photo-gallery/booster/assets/images/google_spinner.svg") no-repeat;
   background-size: 100%;
 }
 
@@ -678,7 +678,7 @@ input.twb-sign-up-input {
   font-weight: 600;
   margin-bottom: 10px;
   padding-left: 26px;
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/close_error.svg) no-repeat #F9F9F9;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/close_error.svg) no-repeat #F9F9F9;
   background-size: 22px;
   background-position: 0 -2px;
 }
@@ -726,7 +726,7 @@ input.twb-sign-up-input {
 }
 
 .twb-optimize_on p.twb-section-title {
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/success.svg) no-repeat;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/success.svg) no-repeat;
   background-size: 20px;
   background-position: 175px 3px;
 }
@@ -776,7 +776,7 @@ input.twb-sign-up-input {
 }
 
 .twb-optimize_on.twb-optimize_done p.twb-section-title {
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/success.svg) no-repeat;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/success.svg) no-repeat;
   background-size: 20px;
   background-position: 113px 3px;
 }
@@ -1020,7 +1020,7 @@ input.twb-sign-up-input {
 
 .speed-loader-blue {
   animation: rotation 1s infinite linear;
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/loader_small.svg) no-repeat;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/loader_small.svg) no-repeat;
   width: 18px;
   height: 18px;
   margin: auto;
@@ -1028,7 +1028,7 @@ input.twb-sign-up-input {
 
 .speed-loader-grey {
   animation: rotation 1s infinite linear;
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/loader_small_grey.svg) no-repeat;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/loader_small_grey.svg) no-repeat;
   width: 18px;
   height: 18px;
   margin: auto;
@@ -1129,14 +1129,14 @@ input.twb-sign-up-input {
 
 .twb-most-image-cont-img-count.twb-not-optimized {
   padding-right: 20px;
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/close_red.svg) no-repeat #F9F9F9;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/close_red.svg) no-repeat #F9F9F9;
   background-position: right center;
   background-size: 20px;
 }
 
 .twb-most-image-cont-img-count.twb-optimized {
   padding-right: 20px;
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/success.svg) no-repeat #F9F9F9;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/success.svg) no-repeat #F9F9F9;
   background-position: right top;
   background-size: 20px;
   white-space: nowrap;
@@ -1159,14 +1159,14 @@ input.twb-sign-up-input {
 
 .twb-optimized-info {
   width: 145px;
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/success.svg) no-repeat #22B3390D;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/success.svg) no-repeat #22B3390D;
   background-position: 6px center;
   background-size: 20px;
   border: 1px solid #22B33919;
 }
 
 .twb-not-optimized-info {
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/close_red.svg) no-repeat #FD3C310D;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/close_red.svg) no-repeat #FD3C310D;
   background-position: 6px center;
   background-size: 20px;
   border: 1px solid #FD3C311A;
@@ -1201,7 +1201,7 @@ input.twb-sign-up-input {
 }
 
 .twb-img_optimizer-container li {
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/disc.svg) no-repeat;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/disc.svg) no-repeat;
   background-position: 0px center;
   background-size: 15px;
   padding-left: 22px;
@@ -1415,7 +1415,7 @@ p.twb-total_size {
   position: absolute;
   top: 50%;
   right: 50%;
-  background: transparent url('/wp-content/plugins/photo-gallery/booster/assets/images/close.svg') 0% 0% no-repeat padding-box;
+  background: transparent url('/em/wp-content/plugins/photo-gallery/booster/assets/images/close.svg') 0% 0% no-repeat padding-box;
   margin-top: -134px;
   margin-right: -235px;
   z-index: 1000000;
@@ -1534,7 +1534,7 @@ p.twb-total_size {
 }
 
 .twb-info:before {
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/info-green.svg) 0% 0% no-repeat padding-box;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/info-green.svg) 0% 0% no-repeat padding-box;
   content: '';
   position: absolute;
   top: -8px;
@@ -1552,7 +1552,7 @@ p.twb-total_size {
 }
 
 .twb-description-steps li {
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/check-green.svg) no-repeat;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/check-green.svg) no-repeat;
   background-position: 0px 1px;
   background-size: 20px;
   padding-left: 25px;

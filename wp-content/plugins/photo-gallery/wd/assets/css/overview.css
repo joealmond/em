@@ -11,14 +11,14 @@
 }
 
 .tenweb_overview .tenweb_header {
-  background: url(/wp-content/plugins/photo-gallery/wd/assets/img/slide-1366.jpg);
+  background: url(/em/wp-content/plugins/photo-gallery/wd/assets/img/slide-1366.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .tenweb_overview .tenweb_footer.without_demo,
 .tenweb_overview .tenweb_how_it_works {
-  background: url(/wp-content/plugins/photo-gallery/wd/assets/img/how_it_works.png);
+  background: url(/em/wp-content/plugins/photo-gallery/wd/assets/img/how_it_works.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -148,7 +148,7 @@ img.plugin_logo {
 }
 
 .tenweb_overview .plan_feature .logo {
-  background: url(/wp-content/plugins/photo-gallery/wd/assets/img/header.svg);
+  background: url(/em/wp-content/plugins/photo-gallery/wd/assets/img/header.svg);
   margin: 0 auto;
 }
 
@@ -262,7 +262,7 @@ img.plugin_logo {
 }
 
 .tenweb_overview .tenweb_logo a div {
-  background: url(/wp-content/plugins/photo-gallery/wd/assets/img/header.svg);
+  background: url(/em/wp-content/plugins/photo-gallery/wd/assets/img/header.svg);
   height: 53px;
   background-size: 196px;
   background-position: 0 0;

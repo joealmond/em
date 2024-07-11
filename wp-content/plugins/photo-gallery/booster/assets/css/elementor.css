@@ -4,7 +4,7 @@
   width: 26px;
   height: 26px;
   content: " ";
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/logo_dark.svg) 0 0 no-repeat;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/logo_dark.svg) 0 0 no-repeat;
   background-size: 26px;
 }
 
@@ -37,7 +37,7 @@
   left: calc(50% - 13px);
   content: " ";
   height: 26px;
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/logo_dark.svg) 0 0 no-repeat;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/logo_dark.svg) 0 0 no-repeat;
   background-size: 26px;
 }
 
@@ -134,7 +134,7 @@ body .twb_elementor_control_title {
 }
 
 .elementor-control .twb_elementor_control_title.twb_not_optimized {
-  background: url(/wp-content/plugins/photo-gallery/booster/assets/images/red-info.svg) no-repeat;
+  background: url(/em/wp-content/plugins/photo-gallery/booster/assets/images/red-info.svg) no-repeat;
   background-size: 16px;
   padding-left: 22px;
   font-size: 12px;
@@ -160,7 +160,7 @@ body .twb_elementor_control_title {
 }
 
 .elementor-control .twb_elementor_control_title span.twb_inprogress {
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/loader_green.svg) 0 0 no-repeat padding-box;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/loader_green.svg) 0 0 no-repeat padding-box;
   animation: rotation 1s infinite linear;
   background-size: 16px;
   margin-right: 6px;
@@ -232,14 +232,14 @@ body .twb_elementor_control_title {
 }
 
 .elementor-control .twb-loader {
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/loader.svg) 0% 0% no-repeat padding-box;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/loader.svg) 0% 0% no-repeat padding-box;
   animation: rotation 1s infinite linear;
   width: 14px;
   height: 14px;
 }
 
 .elementor-control .twb-reload {
-  background: transparent url(/wp-content/plugins/photo-gallery/booster/assets/images/reload.svg) 0% 0% no-repeat padding-box;
+  background: transparent url(/em/wp-content/plugins/photo-gallery/booster/assets/images/reload.svg) 0% 0% no-repeat padding-box;
   width: 28px;
   height: 28px;
   cursor: pointer;

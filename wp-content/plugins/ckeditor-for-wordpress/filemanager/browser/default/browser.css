@@ -74,12 +74,12 @@ body, td, input, select
 
 .FolderListCurrentFolder img
 {
-	background-image: url(/wp-content/plugins/ckeditor-for-wordpress/filemanager/browser/default/images/FolderOpened.gif);
+	background-image: url(/em/wp-content/plugins/ckeditor-for-wordpress/filemanager/browser/default/images/FolderOpened.gif);
 }
 
 .FolderListFolder img
 {
-	background-image: url(/wp-content/plugins/ckeditor-for-wordpress/filemanager/browser/default/images/Folder.gif);
+	background-image: url(/em/wp-content/plugins/ckeditor-for-wordpress/filemanager/browser/default/images/Folder.gif);
 }
 
 .fullHeight {

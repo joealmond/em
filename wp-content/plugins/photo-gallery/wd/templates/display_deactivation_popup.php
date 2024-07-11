@@ -13,7 +13,7 @@
 <br />
 <b>Warning</b>:  Attempt to read property " prefix on null in>/Users/mandulaj/Local Sites/em/app/public/wp-content/plugins/photo-gallery/wd/templates/display_deactivation_popup.php on line <b>3</b><br>
 ">
-    <img src="/wp-content/plugins/photo-gallery/wd/templates/<br />_<b>Warning</b>:  Undefined variable $wd_options in <b>/Users/mandulaj/Local Sites/em/app/public/wp-content/plugins/photo-gallery/wd/templates/display_deactivation_popup.php</b> on line <b>4</b><br />_<br />_<b>Warning</b>:  Attempt to read property" wd_url_img on null in>/Users/mandulaj/Local Sites/em/app/public/wp-content/plugins/photo-gallery/wd/templates/display_deactivation_popup.php on line <b>4</b><br>
+    <img src="/em/wp-content/plugins/photo-gallery/wd/templates/<br />_<b>Warning</b>:  Undefined variable $wd_options in <b>/Users/mandulaj/Local Sites/em/app/public/wp-content/plugins/photo-gallery/wd/templates/display_deactivation_popup.php</b> on line <b>4</b><br />_<br />_<b>Warning</b>:  Attempt to read property" wd_url_img on null in>/Users/mandulaj/Local Sites/em/app/public/wp-content/plugins/photo-gallery/wd/templates/display_deactivation_popup.php on line <b>4</b><br>
 /spinner.gif" class="tenweb-img-loader">
   </div>
   <form method="post" id="<br />

@@ -9,7 +9,7 @@
   border-radius: 10px;
   text-align: left;
   color: #333B46;
-  background-image: url(/wp-content/plugins/photo-gallery/images/subscribe/transparent_title.png);
+  background-image: url(/em/wp-content/plugins/photo-gallery/images/subscribe/transparent_title.png);
   background-repeat: no-repeat;
   background-position: left bottom;
   padding: 40px 0 0 40px;
@@ -21,7 +21,7 @@
 #tenweb_subscribe_popup .subscribe_popup_content:before,
 #tenweb_new_subscribe:before {
   content: "";
-  background-image: url(/wp-content/plugins/photo-gallery/images/subscribe/square.svg);
+  background-image: url(/em/wp-content/plugins/photo-gallery/images/subscribe/square.svg);
   position: absolute;
   top: 0;
   left: 0;
@@ -36,7 +36,7 @@
 }
 
 #tenweb_new_subscribe .tenweb_subscribe_container {
-  background-image: url(/wp-content/plugins/photo-gallery/images/subscribe/ebook.png);
+  background-image: url(/em/wp-content/plugins/photo-gallery/images/subscribe/ebook.png);
   background-repeat: no-repeat;
   background-position: right 134px;
   background-size: 654px;
@@ -48,7 +48,7 @@
 #tenweb_new_subscribe a#tenweb_logo {
   width: 147px;
   height: 40px;
-  background-image: url(/wp-content/plugins/photo-gallery/images/subscribe/10web-logo.svg);
+  background-image: url(/em/wp-content/plugins/photo-gallery/images/subscribe/10web-logo.svg);
   display: inline-block;
   background-repeat: no-repeat;
 }
@@ -279,7 +279,7 @@
 
 #tenweb_subscribe_popup .subscribe_popup_content .subscribe_email:before {
   content: "";
-  background: url(/wp-content/plugins/photo-gallery/images/subscribe/mail.svg);
+  background: url(/em/wp-content/plugins/photo-gallery/images/subscribe/mail.svg);
   background-size: contain;
   width: 48px;
   height: 48px;
@@ -329,7 +329,7 @@
 #tenweb_new_subscribe .right #tenweb_title {
   margin: 0;
   background-color: #4786FF;
-  background-image: url(/wp-content/plugins/photo-gallery/images/subscribe/message_box_light.png);
+  background-image: url(/em/wp-content/plugins/photo-gallery/images/subscribe/message_box_light.png);
   border-radius: 90px 90px 90px 14px;
   padding: 30px 45px 28px;
   background-size: cover !important;
@@ -373,7 +373,7 @@
   #tenweb_new_subscribe .tenweb_subscribe_container {
     background-position: 100% 73%;
     background-size: 840px;
-    background-image: url(/wp-content/plugins/photo-gallery/images/subscribe/ebook.png);
+    background-image: url(/em/wp-content/plugins/photo-gallery/images/subscribe/ebook.png);
     padding-bottom: 124px;
   }
 
@@ -512,7 +512,7 @@
   }
 
   #tenweb_new_subscribe .tenweb_subscribe_container {
-    background-image: url(/wp-content/plugins/photo-gallery/images/subscribe/ebook.png);
+    background-image: url(/em/wp-content/plugins/photo-gallery/images/subscribe/ebook.png);
     background-position: right bottom;
     background-size: 570px;
     padding: 0 0 130px 0;
@@ -561,7 +561,7 @@
   }
 
   #tenweb_new_subscribe .tenweb_subscribe_container {
-    background-image: url(/wp-content/plugins/photo-gallery/images/subscribe/ebook.png);
+    background-image: url(/em/wp-content/plugins/photo-gallery/images/subscribe/ebook.png);
     background-position: 100% 89%;
     background-size: 510px;
     padding: 0 0 137px 0;
@@ -579,7 +579,7 @@
   }
 
   #tenweb_new_subscribe .tenweb_subscribe_container {
-    background-image: url(/wp-content/plugins/photo-gallery/images/subscribe/ebook.png);
+    background-image: url(/em/wp-content/plugins/photo-gallery/images/subscribe/ebook.png);
     background-position: 100% 88%;
     background-size: 460px;
     padding: 0 0 35px 0;
@@ -884,7 +884,7 @@
   }
 
   #tenweb_new_subscribe .right #tenweb_title {
-    background-image: url(/wp-content/plugins/photo-gallery/images/subscribe/founder_message_box.png);
+    background-image: url(/em/wp-content/plugins/photo-gallery/images/subscribe/founder_message_box.png);
   }
 
   #tenweb_subscribe_popup .subscribe_popup_content {

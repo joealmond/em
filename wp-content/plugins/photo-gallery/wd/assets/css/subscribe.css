@@ -92,7 +92,7 @@
 .tenweb_subscribe .texts .hi_there {
   width: 66px;
   height: 103px;
-  background: url(/wp-content/plugins/photo-gallery/wd/assets/img/allow-and-continue.png) no-repeat;
+  background: url(/em/wp-content/plugins/photo-gallery/wd/assets/img/allow-and-continue.png) no-repeat;
   margin: 0 auto;
 }
 
@@ -115,7 +115,7 @@
   position: absolute;
   width: 13px;
   height: 13px;
-  background: url(/wp-content/plugins/photo-gallery/wd/assets/img/allow-and-continue.png) no-repeat;
+  background: url(/em/wp-content/plugins/photo-gallery/wd/assets/img/allow-and-continue.png) no-repeat;
   background-position: 1px -237px;
   right: -19px;
   top: 2px;
@@ -163,7 +163,7 @@
 .tenweb_subscribe .list_logo {
   width: 36px;
   height: 33px;
-  background: url(/wp-content/plugins/photo-gallery/wd/assets/img/allow-and-continue.png) no-repeat;
+  background: url(/em/wp-content/plugins/photo-gallery/wd/assets/img/allow-and-continue.png) no-repeat;
   margin: 0 auto 20px;
 }
 

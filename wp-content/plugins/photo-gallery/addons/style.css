@@ -78,7 +78,7 @@
 }
 
 #settings-content .addon {
-  background: #FFFFFF url('/wp-content/plugins/photo-gallery/addons/images/Add_Ons.jpg') no-repeat 6px center;
+  background: #FFFFFF url('/em/wp-content/plugins/photo-gallery/addons/images/Add_Ons.jpg') no-repeat 6px center;
   color: #66686B;
   padding: 9px 12px 9px 45px;
   width: 100%;
@@ -101,7 +101,7 @@
 
 #settings-content .add-on:hover .addon,
 #settings-content .addon:hover {
-  background: #23282D url('/wp-content/plugins/photo-gallery/addons/images/Add_Ons_hover.jpg') no-repeat 6px center;
+  background: #23282D url('/em/wp-content/plugins/photo-gallery/addons/images/Add_Ons_hover.jpg') no-repeat 6px center;
   color: #DDDEDE;
 }
 
