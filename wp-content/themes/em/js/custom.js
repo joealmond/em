@@ -34,9 +34,9 @@ $(document).ready(function() {
   //change home backgrounds 
   var body = $('.fooldal .screener');
   var backgrounds = [
-    'url(/wp-content/uploads/2015/03/intro_00.jpg)', 
-    'url(/wp-content/uploads/2015/03/intro_01.jpg)',
-    'url(/wp-content/uploads/2015/03/intro_02.jpg)'];
+    'url(/em/wp-content/uploads/2015/03/intro_00.jpg)', 
+    'url(/em/wp-content/uploads/2015/03/intro_01.jpg)',
+    'url(/em/wp-content/uploads/2015/03/intro_02.jpg)'];
   var current = 0;
   function nextBackground() {
 	  body.css(
@@ -49,9 +49,9 @@ $(document).ready(function() {
   /* eng */
   var bodyEng = $('.main .screener');
   var backgroundsEng = [
-    'url(/wp-content/uploads/2015/03/intro_00.jpg)', 
-    'url(/wp-content/uploads/2015/03/intro_01.jpg)',
-    'url(/wp-content/uploads/2015/03/intro_02.jpg)'];
+    'url(/em/wp-content/uploads/2015/03/intro_00.jpg)', 
+    'url(/em/wp-content/uploads/2015/03/intro_01.jpg)',
+    'url(/em/wp-content/uploads/2015/03/intro_02.jpg)'];
   var currentEng = 0;
   function nextBackgroundEng() {
 	  bodyEng.css(
@@ -528,7 +528,7 @@ https://github.com/meetselva/attrchange/blob/master/MIT-License.txt
  * 
  * Open source under the BSD License. 
  * 
- * Copyright Â? 2008 George McGinley Smith
+ * Copyright ï¿½? 2008 George McGinley Smith
  * All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or without modification, 
@@ -697,7 +697,7 @@ jQuery.extend( jQuery.easing,
  * 
  * Open source under the BSD License. 
  * 
- * Copyright Â? 2001 Robert Penner
+ * Copyright ï¿½? 2001 Robert Penner
  * All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or without modification, 
