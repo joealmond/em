@@ -1,0 +1,1 @@
+<script type="text/javascript">window.parent.OnUploadCompleted(1,"","", "This file uploader is disabled. Please check the \"editor/filemanager/connectors/php/config.php\" file") ;</script>

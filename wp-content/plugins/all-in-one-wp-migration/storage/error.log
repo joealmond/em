@@ -1,0 +1,12 @@
+Jul 10 2024 10:07:56
+{"Number":8,"Message":"unserialize(): Error at offset 298 of 483 bytes","File":"\/Users\/mandulaj\/Local Sites\/em\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/database\/class-ai1wm-database-utility.php","Line":87}
+
+Jul 10 2024 10:07:56
+{"Number":8,"Message":"unserialize(): Error at offset 260 of 445 bytes","File":"\/Users\/mandulaj\/Local Sites\/em\/app\/public\/wp-content\/plugins\/all-in-one-wp-migration\/lib\/vendor\/servmask\/database\/class-ai1wm-database-utility.php","Line":87}
+
+Jul 10 2024 10:07:58
+{"type":8192,"message":"Function create_function() is deprecated","file":"\/Users\/mandulaj\/Local Sites\/em\/app\/public\/wp-content\/plugins\/disable-wordpress-updates\/disable-updates.php","line":204}
+
+Jul 10 2024 10:07:58
+{"type":8192,"message":"Function create_function() is deprecated","file":"\/Users\/mandulaj\/Local Sites\/em\/app\/public\/wp-content\/plugins\/disable-wordpress-updates\/disable-updates.php","line":204}
+

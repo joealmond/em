@@ -1,0 +1,16 @@
+/*
+Theme Name: EM SOLUTIONS PAGE
+Theme URI: http://iteq.hu
+Author: ITEQ
+Author URI: http://iteq.hu/
+Description: 
+Version: 1.0
+License: 
+License URI: 
+Tags: em
+Text Domain: www.eventandmore.hu
+*/
+
+ul.social li#menu-item-550 a {
+    background-image: url(/wp-content/uploads/2019/01/vimeo-300x300.png);background-size: contain;
+}
