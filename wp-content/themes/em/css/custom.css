@@ -1,0 +1,569 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+body { background-color:#f5f2ec; color:#574e49; visibility:hidden; }
+  
+h1 { font-family:'Roboto Slab', serif; font-weight:300; font-size:56px; color:#484848; line-height:1.1em; margin-bottom:30px; }
+h2 { font-family:'Roboto Slab', serif; font-size:33px; line-height:1.0em; }
+p { margin-bottom:30px; }
+a { color:inherit !important; }
+img.alignleft { float:left; clear:left; }
+ 
+nav					{ background:#fff !important; box-shadow:none !important; border:0 !important; height:30px; overflow:visible !important; }
+nav .container .navbar-brand		{ display:none; position:absolute; left:50%; background:url(/wp-content/themes/em/css/images/nav-logo.png) center no-repeat; height:83px; width:243px;
+					  margin-left:-121px !important; float:none !important; font-size:0; text-indent:-9000px; }
+nav .container ul			{ text-align:center !important; width:100% !IMPORTANT; }
+nav .container li			{ margin:0 10px; display:inline-block; float:none !important; }
+nav .container li a			{ display:block; text-shadow:none !important; padding-left:10px !important; padding-right:10px !important;
+					  background:transparent !important; box-shadow:none !important; font-size:22px; font-family:'Roboto', serif; font-weight:300;
+					  text-transform:uppercase; }
+nav .container li#menu-item-13		{ position:relative; top:-10px; }
+nav .container li#menu-item-13 a	{ background:url(/wp-content/themes/em/css/images/nav-logo.png) center no-repeat !important; height:83px; width:243px; font-size:0; text-indent:-9000px; }
+nav .container li#menu-item-291		{ position:relative; top:-10px; }
+nav .container li#menu-item-291 a	{ background:url(/wp-content/themes/em/css/images/nav-logo.png) center no-repeat !important; height:83px; width:243px; font-size:0; text-indent:-9000px; }
+nav .container li.active a		{ color:#0093B2 !important; border-bottom:10px solid #0093B2; }
+nav .container li#menu-item-13.active a { border:0 !important; }
+nav .container li#menu-item-291.active a { border:0 !important; }
+nav .container .navbar-right		{ margin-right:0px !important; }
+nav .container .navbar-toggle		{}
+nav .container .navbar-collapse.in,
+nav .navbar-collapse.collapsing		{ border:0 !important; position:fixed !important; top:0; right:0; background:#484848; height:100% !important; width:90%; }
+nav .container .navbar-collapse.in ul,
+nav .navbar-collapse.collapsing ul  	{ margin-top:30px !important; }
+nav .container .navbar-collapse.in li a,
+nav .navbar-collapse.collapsing li a	{ color:#fff !important; background:transparent !important; font-size:25px !important; }
+.nav-tabs, .nav-tabs a			{ border:0 !important; } 
+.nav-tabs li:hover,
+.nav-tabs a:hover			{ background-color:transparent !important; border-color:none !important; border-radius:0 !important; }
+
+.content				{ height:100%; }
+.content .screener			{ line-height:1.2em; overflow-y:hidden; font-family:'Roboto', sans-serif; font-weight:300; color:#574e49; font-size:26px; line-height:1.2em;
+					  background-size:cover !important; background-position:bottom center !important; background-repeat:no-repeat; }
+.content .screener.scrollable		{ padding-bottom:320px !important; height:auto !important; background-size:cover !important; }
+.content .container			{ position:relative; }
+.content .container div			{ font-size:26px; line-height:1.2em; margin-bottom:30px; }
+.content .container td			{ vertical-align:top !important; }
+.content .container p			{ line-height:1.2em !important; font-size:35px !important; }
+.content .container a			{ color:#0093B2 !important; }
+.content .container table		{ width:100%; width:auto; }
+.content .container table tr td		{ vertical-align:middle !important; line-height:1.2em !important; font-size:22px !important; padding-right:20px; padding-bottom:10px; }
+.content .container table tr td:first-child { vertical-align:top !important; }
+
+
+.section.fooldal *,	    .section.main *			{ font-family:'Roboto Slab', serif !important; }
+.section.fooldal .screener, .section.main .screener		{ background-size:cover !important; background-position:left top !important; }
+.section.fooldal p,	    .section.main p			{ font-family:'Roboto Slab', serif; font-weight:100; font-size:49px !important; color:#0093B2; padding:20px;
+								  background:#fff; margin:10px 0; }
+.section.fooldal p:nth-child(1), .section.fooldal p:nth-child(2), .section.fooldal p:nth-child(3),
+.section.main	 p:nth-child(1),	 .section.main	  p:nth-child(2), .section.main	   p:nth-child(3)
+								{ font-family:'Roboto', serif; text-align:center; margin:0 0 0 6px; text-transform:uppercase; display:inline-block;
+								  background:#0093B2; color:#fff; font-size:16px !important; }
+.section.fooldal p:nth-child(1),		.section.main p:nth-child(1)		{ margin-left:0 !important; }
+.section.fooldal p:nth-child(1) strong, .section.main p:nth-child(1) strong,
+.section.fooldal p:nth-child(2) strong,	.section.main p:nth-child(2) strong,
+.section.fooldal p:nth-child(3) strong, .section.main p:nth-child(3) strong	{ display:block; font-weight:300; font-size:81px !important; line-height:80px; }
+.section.fooldal p:nth-child(4),		.section.main p:nth-child(4)		{ display:inline-block; text-align:center; padding:20px 16px !important; font-weight:300 !important; }
+
+.section.kapcsolat .screener,	    .section.contact .screener  	{}
+/* MJ-MODIFIED 2021.04.14 START */
+ /*.section.kapcsolat .container					{ background:#fff; padding:40px; }*/ 
+.section.kapcsolat .container,	     .section.contact .container	{ background:#fff; padding:40px; }
+/*.section.kapcsolat .container p,   .section.contact .container p	{ line-height:64px !important; margin:15px !important; }*/ 
+.section.kapcsolat .container p,     .section.contact .container p	{ line-height:44px !important; margin:10px !important; font-size: 30px !important;} 
+.section.kapcsolat .container p img, .section.contact .container p img	{ margin-right:30px !important; }
+/* MJ-MODIFIED 2021.04.14 END */
+.section.rolunk,		     .section.about-us			{}
+.section.rolunk h2,		     .section.about-us h2		{ background:#fff; color:#0093B2; font-size:52px; margin:0 auto 0 auto; padding:20px 20px 0 20px; }
+.section.rolunk p,		     .section.about-us p		{ background:#fff; color:#484848; font-size:16px !important; margin:0 auto 15px auto; padding:20px 20px; }
+
+.section.a-csapat .screener,	    .section.the-team .screener		{ overflow:visible !important; width:100% !important; height:100% !important; }
+.section.a-csapat .container,	    .section.the-team .container	{ overflow:visible !important; width:100% !important; }
+.section.a-csapat .fp-tableCell,    .section.the-team .fp-tableCell	{ display:block !important; height:100% !important; width:940px !important; margin:0 auto !important; background:#fff; padding:20px; }
+.section.a-csapat .fp-slidesNav,    .section.the-team .fp-slidesNav	{ bottom:20% !important; display:none !important; }
+.section.a-csapat .fp-slidesNav a span,		.section.the-team .fp-slidesNav a span		{ height:15px; width:15px; margin-top:0 !important; background:#fff !important; }
+.section.a-csapat .fp-slidesNav a.active span,	.section.the-team .fp-slidesNav a.active span	{ background:#0093B2 !important; }
+.section.a-csapat .fp-next,	    .section.the-team .fp-next		{ background:#0093B2 url(/wp-content/themes/em/css/images/arr-right.png) 25px center no-repeat !important; border:0 !important;
+									  color:#0093B2 !important; width:100px; height:100px; border-radius:100%; font-size:0 !important; right:-50px; }
+.section.a-csapat .fp-prev,	    .section.the-team .fp-prev		{ background:#0093B2 url(/wp-content/themes/em/css/images/arr-left.png) 60px center no-repeat !important; border:0 !important;
+									  color:#0093B2 !important; width:100px; height:100px; border-radius:100%; font-size:0 !important; left:-50px; }
+.section.a-csapat .fp-slides,	    .section.the-team .fp-slides	{}
+.section.a-csapat .container table, .section.the-team .container table	{ width:100%; background:#fff; max-width:943px; }
+.section.a-csapat .container tr,    .section.the-team .container tr	{}
+.section.a-csapat .container tr td, .section.the-team .container tr td	{}
+.section.a-csapat .container tr td:nth-child(1),    .section.the-team .container tr td:nth-child(1)	{ width:30%; }
+.section.a-csapat .container tr td:nth-child(2),    .section.the-team .container tr td:nth-child(2)	{ width:70%; }
+.section.a-csapat .container img,   .section.the-team .container img	{ margin:-20px 20px 20px 0; max-width:100%; height:auto; }
+.section.a-csapat .container a,	    .section.the-team .container a	{ display:block; height:40px; width:40px; background:url(/wp-content/themes/em/css/images/email.png) center no-repeat;
+									  text-indent:-9000px; font-size:0; }
+.section.a-csapat .container p,	    .section.the-team .container p	{ font-size:17px !important; line-height:1.5em !important; margin-top:30px; }
+.section.a-csapat .container h1,    .section.the-team .container h1	{ margin-bottom:0; }
+.section.a-csapat .container h2,    .section.the-team .container h2	{ margin-bottom:15px !important; }
+.section.a-csapat .container h5,    .section.the-team .container h5	{ display:inline-block; }
+.section.a-csapat .container h5 span,	.section.the-team .container h5 span	{ display:inline-block; margin-right:1x; padding:4px 10px; margin-bottom:5px;
+										  background:#404040; font-size:16px; color:#fff; }
+.section.a-csapat .container h5 br,	.section.the-team .container h5 br	{ display:none !important; }
+
+.section.referenciak .screener,	    .section.references .screener	{ overflow:visible !important; width:100% !important; height:100% !important; background-color:#000 !important; }
+.section.referenciak .scrollable,   .section.references .scrollable	{}
+.section.referenciak .container,    .section.references .container	{ overflow:visible !important; width:100% !important; }
+.section.referenciak .fp-tableCell, .section.references .fp-tableCell	{ display:block !important; height:100% !important; width:690px !important; margin:0 auto !important;
+									  background:#fff !important; padding:15px 15px; position:relative; }
+.section.referenciak .fp-slidesNav, .section.references .fp-slidesNav	{ bottom:20% !important; display:none !important; }
+.section.referenciak .fp-slidesNav a span,	 .section.references .fp-slidesNav a span	 { height:15px; width:15px; margin-top:0 !important; background:#fff !important; }
+.section.referenciak .fp-slidesNav a.active span,.section.references .fp-slidesNav a.active span { background:#0093B2 !important; }
+.section.referenciak .fp-slides,    .section.references .fp-slides	{ margin-bottom:0 !important; }
+.section.referenciak .fp-next,	    .section.references .fp-next	{ background:#0093B2 url(/wp-content/themes/em/css/images/arr-right.png) 25px center no-repeat !important; border:0 !important;
+									  color:#0093B2 !important; width:100px; height:100px; border-radius:100%; font-size:0 !important;
+									  right:-50px; top:50% !important; margin-top:-50px !important; margin-bottom:0 !important;  }
+.section.referenciak .fp-prev,	    .section.references .fp-prev	{ background:#0093B2 url(/wp-content/themes/em/css/images/arr-left.png) 60px center no-repeat !important; border:0 !important;
+									  color:#0093B2 !important; width:100px; height:100px; border-radius:100%; font-size:0 !important;
+									  left:-50px; top:50% !important; margin-top:-50px !important; margin-bottom:0 !important;  }
+.section.referenciak .container img,.section.references .container img	{}
+
+.section.referenciak .container p,  .section.references .container p	{ font-size:17px !important; line-height:1.5em !important; margin:10px 0; }
+.section.referenciak .container p strong,		.section.references .container p strong		     { font-size:43px; color:#0093B2; }
+.section.referenciak .container p:nth-child(2) strong,	.section.references .container p:nth-child(2) strong { font-size:17px; font-weight:bold; color:#000; }
+
+/*MJ-MODIFIED 2021.07.08 START*/
+/*.section.referenciak .container p a { font-size:22px; background:#0093B2; color:#fff !important; display:block; margin:0; padding:5px 10px; position:absolute; bottom:-35px; left:0; }*/
+.section.referenciak .container p:nth-child(2) a,   .section.references .container p:nth-child(2) a { font-size:18px; margin-left: 10px;}
+/*.section.referenciak .container p:not(:nth-child(2)) a { font-size:22px; background:#0093B2; color:#fff !important; display:block; margin:0; padding:5px 10px; position:absolute; bottom:-35px; left:0; }*/
+.section.referenciak .container p.eventLink,	    .section.references .container p.eventLink	    { display:block; margin:0; position:absolute; top: 100%; left:5px; }
+.section.referenciak .container p.eventLink a,	    .section.references .container p.eventLink a    { font-size:22px; background:#0093B2; color:#fff !important; display:inline-block;
+													margin:0 0 2px 0; padding:5px 10px; }
+/*MJ-MODIFIED 2021.07.08 END*/
+.section.referenciak .container p:last-child,	    .section.references .container p:last-child    {}
+/*MJ-MODIFIED 2021.07.08 START*/
+/*.section.referenciak .container p:nth-child(3),
+.section.referenciak .container p:nth-child(4),
+.section.referenciak .container p:nth-child(5),
+.section.referenciak .container p:nth-child(6) { display:inline-block !important; }*/
+/* ez lenne, de nem kellett */
+/*.section.referenciak .container p.eventInNumbersm   .section.references .container p.eventInNumbers { display:inline-block !important; }*/
+/*MJ-MODIFIED 2021.07.08 END*/
+.section.referenciak .container hr, .section.references .container hr	{ border-color:#0093B2 !important; margin:0 0 10px 0; }
+.section.referenciak .container h1, .section.references .container h1	{}
+.section.referenciak .container h2, .section.references .container h2	{ margin-bottom:15px !important; }
+.section.referenciak .container h5, .section.references .container h5	{ display:inline-block; padding:4px; background:#404040; font-size:16px; color:#fff; }
+/*MJ-MODIFIED 2021.07.08 START*/
+/*.section.referenciak .container ul { position:absolute; right:-210px; top:0px; width:200px; }
+.section.referenciak .container ul li { display:block; float:left; clear:both; line-height:26px; margin:10px 0 5px 0; padding:6px 0 0 0!important; }
+.section.referenciak .container ul li span { box-decoration-break:clone !important; vertical-align:top !important; display:inline; line-height:20px !important; color:#fff; text-transform:uppercase; background:#0093B2; box-shadow:10px 0 0 #0093B2, -10px 0 0 #0093B2; padding:6px 0; text-align:left; font-size:16px; }
+.section.referenciak .container ul li.orange span { background:#cd9b0b !important; box-shadow:10px 0 0 #cd9b0b, -10px 0 0 #cd9b0b; }*/
+.section.referenciak .container ul,			.section.references .container ul			{ list-style: disc inside none; font-size:17px !important;
+														  line-height:1.5em !important; margin: 0; } /* based on ".section.referenciak .container p" */
+.section.referenciak .container ul.services,		.section.references .container ul.services		{ position:absolute; right:-210px; top:0px; width:200px;
+														  list-style: none;}
+.section.referenciak .container ul.services li,		.section.references .container ul.services li		{ display:block; float:left; clear:both; line-height:26px;
+														  margin:10px 0 5px 0; padding:6px 0 0 0!important; }
+.section.referenciak .container ul.services li span,	.section.references .container ul.services li span	{ box-decoration-break:clone !important; vertical-align:top !important;
+														  display:inline; line-height:20px !important; color:#fff;
+														  text-transform:uppercase;
+														  background:#0093B2; box-shadow:10px 0 0 #0093B2, -10px 0 0 #0093B2;
+														  padding:6px 0; text-align:left; font-size:16px; }
+.section.referenciak .container ul.services li.orange span, .section.references .container ul.services li.orange span		  { background:#cd9b0b !important;
+																    box-shadow:10px 0 0 #cd9b0b, -10px 0 0 #cd9b0b; }
+/*MJ-MODIFIED 2021.07.08 END*/
+.section.referenciak .container .bwg_container,			  .section.references .container .bwg_container			  { margin:-10px 0 -15px 0 !important;
+																    height:143px !important;
+																    overflow:hidden !important; }
+.section.referenciak .container .bwg_container  span,		  .section.references .container .bwg_container  span		  { width:165px !important; }
+.section.referenciak .container .bwg_container  span span,	  .section.references .container .bwg_container  span span  	  { border-right:8px solid #fff !important; }
+.section.referenciak .container .bwg_container a:hover span span, .section.references .container .bwg_container a:hover span span { border:0 !important; position:relative;
+																    z-index:999; }
+/*MJ-ADDED 2021.07.08 START*/
+.section.referenciak .container .bwg_container a:nth-child(n+5),  .section.references .container .bwg_container a:nth-child(n+5)   { display: none;}
+/*MJ-ADDED 2021.07.08 END*/
+.section.referenciak .container .spider_popup_loading,		  .section.references .container .spider_popup_loading		  { display:none !important; }
+.section.referenciak .container .spider_popup_overlay,		  .section.references .container .spider_popup_overlay		  { background:none !important; }
+
+.spider_popup_wrap		{}
+.bwg_image_wrap			{}
+.bwg_slide_container		{ background:transparent url(/wp-content/themes/em/css/images/gallery-bg.png); }
+.bwg_close_btn			{ color:#fff !important; font-size:25px !important; }
+#spider_popup_right:hover span,
+#spider_popup_left:hover span	{ border:0 !important; color:#0093B2 !important; width:100px !important; height:100px !important; border-radius:100%; font-size:0 !important;
+				  top:50% !important; right:-50px !important; }
+#spider_popup_right:hover span	{ background:#0093B2 url(/wp-content/themes/em/css/images/arr-right.png) 25px center no-repeat !important; }
+#spider_popup_left:hover span	{ background:#0093B2 url(/wp-content/themes/em/css/images/arr-left.png) 60px center no-repeat !important; }
+#spider_popup_right,
+#spider_popup_left  		{ display:block !important; visibility:visible !important; height:100% !important; width:50% !important; top:0 !important; margin-top:0 !important; }
+
+.section.szolgaltatasok,				.section.services-2				  {}
+.section.szolgaltatasok .col-xs-36 ul,			.section.services-2 .col-xs-36 ul		  {}
+.section.szolgaltatasok .col-xs-36 ul li,		.section.services-2 .col-xs-36 ul li		  { color:#fff; text-transform:uppercase; background:#0093B2; text-align:center;
+													    font-size:18px; padding:8px; margin:20px 0 0 0; }
+.section.szolgaltatasok .col-xs-36:nth-child(2) ul,	.section.services-2 .col-xs-36:nth-child(2) ul	  {}
+.section.szolgaltatasok .col-xs-36:nth-child(2) ul li,	.section.services-2 .col-xs-36:nth-child(2) ul li { color:#fff; text-transform:uppercase; background:#cd9b0b; text-align:center;
+													    font-size:18px; padding:8px; margin:20px 0 0 0; }
+.slimScrollBar { visibility:hidden !important; }
+  
+footer						{ background:transparent !important; padding:0; width:100%; /*position:fixed; bottom:0; z-index:0;*/ }
+footer .container				{ /*position:relative;*/ }
+footer .container .logo				{ display:block; width:78px; height:78px; background:url(/wp-content/themes/em/css/images/footer-lwp.png) center no-repeat; position:fixed;
+						  right:20px; bottom:20px; font-size:0; text-indent:-9000px; z-index:0; }
+footer .container ul.social			{ position:fixed; bottom:0; z-index:0; float:left; margin:0 !important; padding:30px 0 !important; }
+footer .container ul.social li			{ float:none; display:inline-block; padding:0 !important; margin:0 !important; height:40px !important; }
+footer .container ul.social li a		{ height:40px; width:40px; margin:0 !important; padding:0 !important; display:inline-block; background-position:center; background-repeat:no-repeat; font-size:0; text-indent:-9000px; }
+footer .container ul.social li#menu-item-50 a	{ background-image:url(/wp-content/themes/em/css/images/footer-email.png); }
+footer .container ul.social li#menu-item-49 a	{ background-image:url(/wp-content/themes/em/css/images/footer-facebook.png); }
+footer .container ul.social li#menu-item-51 a	{ background-image:url(/wp-content/themes/em/css/images/footer-twitter.png); }
+footer .container ul.social li#menu-item-180 a	{ background-image:url(/wp-content/themes/em/css/images/footer-prezi.png); }
+footer .container ul.dot			{ width:100% !important; text-align:center !important; margin:0 !important; padding:0 !important; }
+footer .container ul.dot li			{ float:none; display:inline-block; padding:0 !important; margin:0 !important; height:53px !important; }
+footer .container ul.dot li a			{ display:none; height:53px; width:100px; margin:0 !important; padding:0 !important;
+						  background:url(/wp-content/themes/em/css/images/footer-down.png) center no-repeat; font-size:0; text-indent:-9000px; }
+footer .container ul.dot li.active a		{ display:inline-block; }
+/* MJ-MODIFIED 2021.05.08
+/*footer .container  button.next { position:absolute; z-index:999; left:50%; bottom:0; border:0; outline:0; height:53px; width:100px; margin:0 !important; padding:0 !important; background:url(/wp-content/themes/em/css/images/footer-down.png) center no-repeat; font-size:0; text-indent:-9000px; } */
+footer .container  button.next,
+footer .container  button.up			{ position:absolute; z-index:999;bottom:-50px; border:0; outline:0; height:100px; width:100px; margin:0 !important;
+						  padding:0 !important; font-size:0; text-indent:-9000px; border-radius:100%;}
+footer .container  button.next			{ right:20px;  background: #0093B2 url(/wp-content/themes/em/css/images/footer-down.png)	center 20px no-repeat; font-size:0; }
+footer .container  button.up			{ right:130px; background: #0093B2 url(/wp-content/themes/em/css/images/footer-up.png)	center 20px no-repeat; font-size:0; }
+
+@media screen and (max-height:920px) {
+  .section.szolgaltatasok .col-xs-36,	.section.services-2 .col-xs-36	{ padding:0 5px; }
+  .section.szolgaltatasok li,		.section.services-2 li		{ font-size:14px !important; padding:4px !important; margin:10px 0 0 0 !important; }
+}
+@media screen and (max-width:1024px) {
+  .section .container							{ width:100% !important; }
+  .section.fooldal,			.section.main			{ padding-top:60px; }
+  .section.fooldal p:nth-child(1),	.section.main p:nth-child(1),
+  .section.fooldal p:nth-child(2),	.section.main p:nth-child(2),
+  .section.fooldal p:nth-child(3),	.section.main p:nth-child(3)	{ display:block; float:none; clear:both; text-align:center; margin:0 !important; }
+  
+  .section.kapcsolat .container p,	.section.contact .container p	{ line-height:36px !important; padding-left:46px;
+									  position:relative; margin-left:0; } 
+  .section.kapcsolat .container p img,	.section.contact .container p img { margin-right:0 !important; height:36px; width:36px;
+									    position:absolute; left:0; top:0; } 
+}
+@media screen and (min-width:1025px) {
+  html									{ height:100% !important; }
+  body									{ overflow-y:hidden; height:100% !important; }
+  body::-webkit-scrollbar						{ width: 0 !important }
+  body									{ -ms-overflow-style: none; overflow: -moz-scrollbars-none; }
+  .content .screener::-webkit-scrollbar					{ width: 0 !important }
+  .content .screener							{ -ms-overflow-style: none; overflow: -moz-scrollbars-none; }  
+  .section.fooldal .container,		.section.main  .container	{ max-width:689px; }
+  .section.kapcsolat .container,	.section.contact .container	{ max-width:708px; }
+  .section.rolunk h2,			.section.about-us h2		{ max-width:720px; }
+  .section.rolunk p,			.section.about-us p		{ max-width:720px; }
+
+  nav .lang-item				{ float:right; margin:0 !important; padding:0 !important; position:absolute; top:-2px; }
+  nav .lang-item:last-child			{ border-left:1px solid #484848; margin-left:-5px !important; }
+  nav .lang-item a				{ font-size:14px !important; padding:0 !important; margin:0 !important; color:#0093B2 !important; }
+  nav .lang-item.current-lang a			{ color:#484848 !important; }
+  
+  /* MJ-MMODIFIED 2024.06.01 */
+  /* nav .lang-item-hu				{ position:absolute; right:48px; top:15px; } */
+   nav .lang-item-hu				{ position:absolute; right:66px; top:15px; } 
+  
+  nav .lang-item-en				{ position:absolute; right:10px; top:15px; }
+
+/*MJ--ADDED 2021.05.19*/
+  #navbar a.close				{ display: none; }
+}
+
+/* MJ-ADDED 2021.05.08 START */
+@media screen and (max-width:1200px) {
+  #navbar a.close				{ font-family:'Roboto', serif; padding:10px; font-weight:300; color:#fff !important; text-shadow:none !important;
+						  position:absolute; z-index:9999; right:20px; top:-5px; font-size:35px; float:none !important; opacity:1.0 !important; }
+  /*MJ--MODIFIED 2021.05.19 START*/
+  /*.navbar { background:#fff url(/wp-content/themes/em/css/images/nav-logo.png) center no-repeat !important; }*/
+  .navbar					{ background:#fff !important; }
+  .navbar:before				{ content: '';	position: absolute; display: inline-block; width: 243px; height: 83px; top: -3px;
+						  background: rgba(0,0,0,0) url(/wp-content/themes/em/css/images/nav-logo.png) center no-repeat !important;
+						  left: 50%; transform: translate(-50%, 0);
+  }
+  /*MJ--MODIFIED 2021.05.19 END */
+
+  .navbar-collapse.collapse			{ display: none !important; }
+  .navbar-collapse.collapse.in,
+  .navbar-collapse.collapsing			{ display: block !important; height:80% !important; min-height:80% !important; width:80% !important; }
+  .navbar-collapse.collapse li,
+  .navbar-collapse.collapsing li		{ display:block; text-align:center; }
+  .navbar-header .collapse, .navbar-toggle	{ display:block !important; }
+  .navbar-header				{ float:none; }
+  #menu-mainmenu #menu-item-13,
+  #menu-mainmenu-eng #menu-item-291		{top: 0;}
+  #menu-mainmenu #menu-item-13 a,
+  #menu-mainmenu-eng #menu-item-291 a		{width: auto;}
+  .nav .lang-item-hu				{ float: right !important; right: 100px;}
+  .nav .lang-item-en				{ float: right !important; right: 64px;}
+}
+/* MJ-ADDED 2021.05.08 END */
+
+@media screen and (max-width:1024px) {
+  #navbar a.close				{ font-family:'Roboto', serif; padding:10px; font-weight:300; color:#fff !important; text-shadow:none !important;
+						  position:absolute; z-index:9999; right:20px; top:-5px; font-size:35px; float:none !important; opacity:1.0 !important; }
+  /*MJ--DELETED 2021.05.19 moved to maxwidth:1200px*/
+  /*.navbar { background:#fff url(/wp-content/themes/em/css/images/nav-logo.png) center no-repeat !important; }*/
+
+  /* MJ-DELETED 2021.05.08 */
+  /*.screener { background:none !important; }*/ 
+
+  .section.fooldal p:nth-child(1),	.section.main p:nth-child(1),
+  .section.fooldal p:nth-child(2),	.section.main p:nth-child(2),
+  .section.fooldal p:nth-child(3),    	.section.main p:nth-child(3)	{ display:block; float:none; clear:both; text-align:center;
+									  margin-left:0 !important; margin-bottom:6px !important; }
+  .section.fooldal p:nth-child(4),  .section.main p:nth-child(4)		{ display:block; }
+  .section.referenciak .fp-table,   .section.references .fp-table	{ background:#fff !important; padding:20px; }
+  .section.a-csapat .container img, .section.the-team .container img	{ margin-top:0 !important; }
+  .section.a-csapat .container a,   .section.the-team .container a	{ margin-left:30px; }
+  footer								{ position:static !important; }
+  footer button.next							{ display:none !important; }
+  /* MJ-ADDED 2021.05.08 */
+  footer button.up *							{ display:none !important; }
+}
+@media screen and (max-width: 1024px) {
+  .navbar-collapse.collapse						{ display: none !important; }
+  .navbar-collapse.collapse.in,
+  .navbar-collapse.collapsing						{ display: block !important; height:80% !important; min-height:80% !important;
+									  width:80% !important; }
+  .navbar-collapse.collapse li ,
+  .navbar-collapse.collapsing li					{ display:block; text-align:center; }
+  .navbar-header .collapse, .navbar-toggle				{ display:block !important; }
+  .navbar-header							{ float:none; }
+  .fp-slidesNav								{ display:none; }
+/*  #menu-item-13 { top:0 !important; }
+  #menu-item-13 a {  width:auto !important; }
+  #menu-item-13 { display:none !important; }*/
+
+}
+
+/* MJ-ADDED 2021.04.14 START */
+@media screen and (max-width: 680px) {
+  .section.kapcsolat p,		    .section.contact p			{ font-size:14px !important; margin-left:0 !important; }
+  .section.kapcsolat .container,    .section.contact .container		{ background:#fff; padding:20px 50px; }
+  .section.kapcsolat .container p,  .section.contact .container p	{ font-size: 22px !important; }
+
+}
+/* MJ-ADDED 2021.04.14 END */
+
+@media screen and (max-width: 440px) {
+  h1, h2										{ font-size:36px !important; }
+  .section.fooldal p:nth-child(1) strong	,   .section.main p:nth-child(1) strong,
+  .section.fooldal p:nth-child(2) strong	,   .section.main p:nth-child(2) strong,
+  .section.fooldal p:nth-child(3) strong	,   .section.main p:nth-child(3) strong		{ font-size:36px !important; }
+  .section.a-csapat .container table h2,    .section.the-team .container table h2	{ font-size:23px !important; }
+  .section.referenciak p a,		    .section.references p a			{ display:none !important; }
+/* MJ-MODIFIED 2021.04.14 START */
+/*  .section.kapcsolat p { font-size:14px !important; margin-left:0 !important; } */
+.section.kapcsolat .container,		    .section.contact .container			{ background:#fff; padding:10px 10px; }
+.section.kapcsolat .container p,	    .section.contact .container p		{ font-size: 16px !important; }
+/* MJ-MODIFIED 2021.04.14 END */
+}
+/*         ----         -----        P L U G I N S        ----        -----        */
+/**
+ * fullPage 2.6.0
+ * https://github.com/alvarotrigo/fullPage.js
+ * MIT licensed
+ *
+ * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
+ */
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow-x:hidden;
+	/*Avoid flicker on slides transitions for mobile phones #336 */
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+@media screen and (min-width:1025px) {
+  html, body {
+	overflow:hidden;
+  }
+}
+#superContainer {
+	height: 100%;
+	position: relative;
+	/* Touch detection for Windows 8 */
+	-ms-touch-action: none;
+	/* IE 11 on Windows Phone 8.1*/
+	touch-action: none;
+}
+.fp-section {
+	position: relative;
+	-webkit-box-sizing: border-box; /* Safari<=5 Android<=3 */
+	-moz-box-sizing: border-box; /* <=28 */
+	box-sizing: border-box;
+}
+.fp-slide {
+	float: left;
+}
+.fp-slide, .fp-slidesContainer {
+	height: 100%;
+	display: block;
+}
+.fp-slides {
+	z-index:1;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+	-webkit-transition: all 0.3s ease-out; /* Safari<=6 Android<=4.3 */
+	transition: all 0.3s ease-out;
+}
+.fp-section.fp-table, .fp-slide.fp-table {
+	display: table;
+	table-layout:fixed;
+	width: 100%;
+}
+.fp-tableCell {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	height: 100%;
+}
+.fp-slidesContainer {
+	float: left;
+	position: relative;
+}
+.fp-controlArrow {
+	position: absolute;
+	z-index: 4;
+	top: 50%;
+	cursor: pointer;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	margin-top: -38px;
+	-webkit-transform: translate3d(0,0,0);
+	-ms-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.fp-controlArrow.fp-prev {
+	left: 15px;
+	width: 0;
+	border-width: 38.5px 34px 38.5px 0;
+	border-color: transparent #fff transparent transparent;
+}
+.fp-controlArrow.fp-next {
+	right: 15px;
+	border-width: 38.5px 0 38.5px 34px;
+	border-color: transparent transparent transparent #fff;
+}
+.fp-scrollable {
+	overflow: scroll;
+}
+.fp-notransition {
+	-webkit-transition: none !important;
+	transition: none !important;
+}
+#fp-nav {
+	position: fixed;
+	z-index: 100;
+	margin-top: -32px;
+	top: 50%;
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+}
+#fp-nav.right {
+	right: 17px;
+}
+#fp-nav.left {
+	left: 17px;
+}
+.fp-slidesNav{
+	position: absolute;
+	z-index: 4;
+	left: 50%;
+	opacity: 1;
+}
+.fp-slidesNav.bottom {
+	bottom: 17px;
+}
+.fp-slidesNav.top {
+	top: 17px;
+}
+#fp-nav ul,
+.fp-slidesNav ul {
+	margin: 0;
+	padding: 0;
+}
+#fp-nav ul li,
+.fp-slidesNav ul li {
+	display: block;
+	width: 14px;
+	height: 13px;
+	margin: 7px;
+	position:relative;
+}
+.fp-slidesNav ul li {
+	display: inline-block;
+}
+#fp-nav ul li a,
+.fp-slidesNav ul li a {
+	display: block;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	text-decoration: none;
+}
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span{
+	height: 15px;
+	width: 15px;
+	margin: 0 0 0 0;
+	border-radius: 100%;
+ }
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+	border-radius: 50%;
+	position: absolute;
+	z-index: 1;
+	height: 4px;
+	width: 4px;
+	border: 0;
+	background: #333;
+	left: 50%;
+	top: 50%;
+	margin: 0 0 0 0;
+	-webkit-transition: all 0.1s ease-in-out;
+	-moz-transition: all 0.1s ease-in-out;
+	-o-transition: all 0.1s ease-in-out;
+	transition: all 0.1s ease-in-out;
+}
+#fp-nav ul li:hover a span,
+.fp-slidesNav ul li:hover a span{
+	width: 15px;
+	height: 15px;
+	margin: 0 0 0 0;
+}
+#fp-nav ul li .fp-tooltip {
+	position: absolute;
+	top: -2px;
+	color: #fff;
+	font-size: 14px;
+	font-family: arial, helvetica, sans-serif;
+	white-space: nowrap;
+	max-width: 220px;
+	overflow: hidden;
+	display: block;
+	opacity: 0;
+	width: 0;
+}
+#fp-nav ul li:hover .fp-tooltip {
+	-webkit-transition: opacity 0.2s ease-in;
+	transition: opacity 0.2s ease-in;
+	width: auto;
+	opacity: 1;
+}
+#fp-nav ul li .fp-tooltip.right {
+	right: 20px;
+}
+#fp-nav ul li .fp-tooltip.left {
+	left: 20px;
+}
+
+/* MJ-ADDED 2021.05.08 */
+
+.fp-controlArrow {
+	top: 96px !important;
+}
+.section.referenciak .fp-controlArrow {
+	top: 310px !important;
+}
